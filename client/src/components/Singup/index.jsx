@@ -101,6 +101,15 @@ const Signup = () => {
           </form>
         </div>
       </div>
+
+      <div className={styles.added_employee}>
+        <h1 className={styles.recAd} >Recently Added Employees</h1>
+        <div className={styles.employeeCard}>
+          <h1 className={styles.name}>Employee name</h1>
+          <span className={styles.email}>johndoe@gmail.com</span>
+          <p className={styles.time}>00s</p>
+        </div>
+      </div>
     </div>
   );
 };
