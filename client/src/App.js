@@ -8,7 +8,7 @@ import Employee from "./components/Main/Attendence";
 import Scan from "./components/Scanner";
 import Navebar from "./components/navbar";
 function App() {
-  const User = JSON.parse(localStorage.getItem("user"));
+  const User = "admin";
   // user&&console.log(user);
  
   return (
